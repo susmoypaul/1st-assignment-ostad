@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body class="bg-light">
+
+     <!--nav section-->
+
+     <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            class="nav-logo"
+            src="https://www.worldtrips.com/-/media/Project/TMHCC-MIS/HCCMISdotcom/logo.png?h=50&iar=0&w=200&hash=6626027E185FA65F3249D6681FD7E5C3"
+            alt="me"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Destination</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Activities
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Summer</a></li>
+                <li><a class="dropdown-item" href="#">Winter</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
+
+
+
+
+
+    <!--banner section-->
+<div class="container-fluid hero-background mb-5">
+  <div class="row ">
+    <div class="banner col-12 text-center p-1">
+      <h1 class="text-success hero-title ms-5">TOUR & TRAVEL WEBSITE</h1>
+      <h4 class="text-white ms-5">Go for travels.It will heal your mind</h4>
+        
+
+    </div>
+
+  </div>
+
+</div>
+
+    <!--card section-->
+    <div class="container shadow-sm mb-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+         <div class="card">
+          <img class="card-img-top" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/Rz5Mdv.png" alt="Card Image"/>
+          <div class="card-body">
+          <h5 class="card-title p-2">Europe Deals</h5>
+          <p class="card-text">Europe will be better for your travel journey</p>
+          </div>
+
+         </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/Nm8jzp.png" alt="Card Image"/>
+        
+            <div class="card-body">
+              <h5 class="card-title p-2">Asia Deals</h5>
+              <p class="card-text">Asia  will be better for your travel journey</p>
+              </div>
+  
+           </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/C3MOCS.png" alt="Card Image"/>
+        
+            <div class="card-body">
+              <h5 class="card-title p-2">Italy Deals</h5>
+              <p class="card-text">Italy will be better for your travel journey</p>
+              </div>
+  
+           </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/hbdQyn.png" alt="Card Image"/>
+        
+            <div class="card-body">
+              <h5 class="card-title p-2">Peru Deals</h5>
+              <p class="card-text">Peru will be better for your travel journey</p>
+              </div>
+  
+           </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+    <!--input section-->
+    <div  class="container shadow-sm bg-primary-subtle p-3 mb-5" >
+      <div class="row">
+        <div class=" col-lg-12 col-md-6 d-flex justify-content-center">
+          <form id="ageForm">
+            <div class="form-group ">
+              <label for="ageInput">Enter your age:</label>
+              <input type="number" id="ageInput" class="form-control" placeholder="Enter your age"/>
+            </div>
+            <button type="button" class=" btn btn-primary mt-3" onclick="checkAge()" >Submit</button>
+          </form>
+
+          <div id="resultCard" class="card mt-3" style="display: none;">
+            <div class="card-body">
+              <h5 class="card-title" id="cardTitle">a</h5>
+              <p class="card-text" id="cardText"></p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!--footer section-->
+    <footer>
+      <div class="container-fluid bg-white shadow-sm px-5">
+        <div class="row p-3">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12 px-5">
+            <h6>Follow us</h6>
+            <a href="#">Facebook</a><br>
+            <a href="#">Instagram</a></br>
+            <a href="#">twitter</a></br></br>
+            <h6>Travelers</h6>
+            <a href="#">Days to Come Magazine</a></br>
+            <a href="#">After Your Booking</a></br>
+            <a href="#">Cancellation Policy</a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <h6>Partners</h6>
+            <a href="#">Distribution Partner Solutions
+            </a></br>
+            <a href="#">Partner Log In</a></br>
+            <a href="#">Marketing Solutions</a> 
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <h6>Tour Operators</h6>
+            <a href="#">Working With TourRadar
+            </a></br>
+            <a href="#">Operator Log In
+            </a></br></br>
+          
+            <h6>Travel Advisors</h6>
+            <a href="#">Travel Advisors / Agents</a></br>
+            <a href="#">Advisor Log In</a></br>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <h6>Support</h6>
+            <a href="#">Contact Us</a><br>
+            <a href="#">Help Center</a></br>
+            <a href="#">United States & Canada +1 833 895 6770</a></br>
+            <a href="#">Great Britain +44 800 802 1046</a><br>
+            <a href="#">Australia +61 7 3106 8663
+            </a><br>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
